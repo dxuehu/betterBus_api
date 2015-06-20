@@ -1,6 +1,9 @@
 var app = require('express');
 var restbus = require('restbus');
 var http = require('http');
+var cors = require('cors');
+
+app.use(cors());
  
 http.createServer(app).listen('3030', function() {
   console.log('app is now listening on port 3030');
