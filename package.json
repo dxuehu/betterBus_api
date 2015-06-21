@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.7.1",
     "express": "^4.12.4",
     "restbus": "^1.1.0"
   }
